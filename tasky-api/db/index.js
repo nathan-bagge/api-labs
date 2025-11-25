@@ -17,4 +17,3 @@ db.once('open', () => {
     console.log(`database connected to ${db.name} on ${db.host}`);
 })
 
-export default db;
